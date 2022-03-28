@@ -20,7 +20,7 @@ public class Kalendarz{
 
 
         if(miesionc==1){
-            System.out.println("Styczeń " + rok);
+            System.out.println("| Styczeń " + rok + " |");
                 for(int x = 0; x < 31; x++){
                     if(x % 7 == 0){
                         System.out.printf("| " + styczen[0][x] + " |\t");
@@ -30,7 +30,7 @@ public class Kalendarz{
                     }
                 }
                 for(int y = 1; y < 4; y++){
-                    System.out.printf("| " + styczen[y][0] + " |\t\n");
+                    System.out.printf("| " + styczen[y][y] + " |\t\n");
                 }
         }
         else if(miesionc==2){
